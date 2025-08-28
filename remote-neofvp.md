@@ -3,13 +3,13 @@
 
 ### Quick Start Guide
 
-* Remote access the host server cx9
+Remote access the host server cx9
 ```
 ssh neofvp@59.124.169.198 -X
 Password:
 ```
 
-* Launch RDN2 FVP and booting Ubuntu Linux
+Launch RDN2 FVP and booting Ubuntu Linux
 ```
 cd ~/labs/infra/rdn2-ubuntu/
 ./run.sh
