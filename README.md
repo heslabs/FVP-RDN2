@@ -24,7 +24,7 @@ Let's now compute the latency of results of these three operators across differe
 * Note This code is tested on FVP-RD-N2 with matmul size of 1024 can take upto few minutes.
 
 ---
-## Rsults 
+## Results 
 
 ---
 #### RDN2 (Neoverse-N2)
