@@ -25,7 +25,10 @@ cd model-scripts/rdinfra
 ./distro.sh -p rdn2 -d ${WORKDIR}/../images/ubuntu.satadisk.rdn2 -n true
 ```
 
----
-### Results
+It takes about 5-min to run upto the Linux login prompt
 
+---
+### FVP Console ouptut
+
+<img width="800" height="838" alt="image" src="https://github.com/user-attachments/assets/7f34a7e9-d881-4a87-86cd-2a264aa1c4e8" />
 
