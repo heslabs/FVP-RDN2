@@ -37,12 +37,12 @@ Let's now compute the latency of results of these three operators across differe
 2    128    0.002520         1.0    0.000149        17.0    0.000077        33.0
 3    256    0.020093         1.0    0.001161        17.0    0.000591        34.0
 4    512    0.160490         1.0    0.009167        18.0    0.004624        35.0
-(zenv) root@rdn2:~/labs/AI-on-Arm# 
 ```
 
 #### RPI5 (Cortex-A76)
 
 ```
+(aivenv) demo@rx66h:~/AI-on-Arm$ python3 ./bench_table.py
    mSize  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)
 0     32    0.000189         1.0    0.000008        24.0    0.000005        38.0
 1     64    0.001487         1.0    0.000057        26.0    0.000034        44.0
