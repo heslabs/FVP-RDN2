@@ -109,8 +109,8 @@ Password: root
 ---
 ### Network
 
- 
-#### please follow this to setup TAP interface
+Please follow this to setup TAP interface
+
 * Getting Started — Neoverse Reference Design Platform Software  documentation 
   * https://neoverse-reference-design.docs.arm.com/en/latest/user_guides/getting_started.html#enable-network-for-fvp-s-optional
 
