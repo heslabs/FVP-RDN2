@@ -5,7 +5,7 @@
 
 Remote access the host server cx9
 ```
-ssh neofvp@59.124.169.198 -X
+ssh neofvp@122.116.228.96 -X
 Password:
 ```
 
