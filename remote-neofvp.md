@@ -27,7 +27,7 @@ cd model-scripts/rdinfra
 It takes about 10-min to run upto the Linux login prompt
 
 ---
-### FVP Console ouptut
+### FVP console ouptut
 
 <img width="800" height="838" alt="image" src="https://github.com/user-attachments/assets/7f34a7e9-d881-4a87-86cd-2a264aa1c4e8" />
 
