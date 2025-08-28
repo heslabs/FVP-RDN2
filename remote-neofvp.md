@@ -18,7 +18,6 @@ cd ~/labs/infra/rdn2-ubuntu/
 ```
 ### run.sh
 #!/bin/bash -f
-
 export WORKDIR=${PWD}
 export MODEL=${WORKDIR}/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 cd model-scripts/rdinfra
