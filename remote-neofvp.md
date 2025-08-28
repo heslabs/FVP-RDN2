@@ -31,3 +31,4 @@ It takes about 10-min to run upto the Linux login prompt
 
 <img width="800" height="1062" alt="image" src="https://github.com/user-attachments/assets/1816fe99-268c-41e3-8fb6-8b644958a45f" />
  
+<img width="800" height="1062" alt="image" src="https://github.com/user-attachments/assets/abfb50e4-f6a3-4c2e-9c8b-b7392de5e937" />
