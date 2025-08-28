@@ -29,5 +29,5 @@ It takes about 10-min to run upto the Linux login prompt
 ---
 ### FVP console ouptut
 
-<img width="800" height="838" alt="image" src="https://github.com/user-attachments/assets/7f34a7e9-d881-4a87-86cd-2a264aa1c4e8" />
-
+<img width="800" height="1062" alt="image" src="https://github.com/user-attachments/assets/1816fe99-268c-41e3-8fb6-8b644958a45f" />
+ 
