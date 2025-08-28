@@ -1,4 +1,4 @@
-# Remote access to the FVP-RDN2
+# Remote access to run FVP-RDN2
 
 
 ### Quick Start Guide
