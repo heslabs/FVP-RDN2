@@ -98,7 +98,7 @@ Password: ubuntu
 * Boot from an existing installed disk image
 ```
 export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
-cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d ubuntu.satadisk.mlperf
+cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d ubuntu.satadisk.rdn2
 
 Login: root
 Password: root
