@@ -38,34 +38,6 @@ Command to perform an incremental build of the software stack:
 ./build-scripts/build-test-uefi.sh -p rdn2 package
 ```
 
----
-### Boot a Linux Distribution - Pre-Installed (Raw) images
-
-The cloud images for Debian can be obtained from the Debian cloud images page. A number of images listed by codename, along with the daily builds of the latest release version are available on this page.
-
-Debian cloud images page: https://cloud.debian.org/images/cloud/
-
-As an example, to download the image navigate as follows:
-```
-bookworm/ >> latest >> debian-12-nocloud-arm64.raw
-```
-
-Using RD-N2 as an example, set MODEL environment variable to the FVP path, and run the boot script with argument -d to the downloaded image path.
-```
-export MODEL=<absolute/path/to/FVP/binary>
-cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d <absolute/path/to/image>
-```
-
-### Example boot script:
-```
-export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
-cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d $(WORKDIR)/images/debian-12-nocloud-arm64-20250804-2194.raw
-```
-
-
----
-<img width="800" height="766" alt="image" src="https://github.com/user-attachments/assets/16efbeef-fd4c-468a-9596-73b0b65a0bb5" />
-
  
 ---
 ### Install a Linux Distribution
@@ -146,38 +118,6 @@ Password: root
 ```
 ./distro.sh -p rdn2 -d ${WORKDIR}/../images/ubuntu.satadisk -n true -a "--parameter board.virtio_net.transport=modern --parameter disable_visualisation=true"
 ```
-
-```
-Error: RD_N2: board.virtio_net.hostbridge: Failed to setup TAP 'lo'
-```
-
-* Configuring networks
-  * https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/
-
-
-```
-ip a
-sudo lshw -class network
-sudo ethtool eth0
-sudo ip addr add 192.168.52.101/24 dev eth0
-
-ip link set dev eth0 up
-ip link set dev eth0 down
-
-ip address show dev eth0
-
-sudo ip route add default via 10.102.66.1
-
-ip route show
-
-ip addr flush eth0
-
-sudo netplan apply
-ip address show lo
-
-/etc/resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
-```
-
 
 ---
 ### RD-INFRA-2024.12.20 | Ubuntu 24.04.3 LTS 
