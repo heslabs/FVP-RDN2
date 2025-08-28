@@ -6,11 +6,11 @@
 
 This lab begins with an exploration of matrix multiplication operators, the core computational components of AI workloads. Understanding and optimizing these operations can significantly enhance the inference performance of generative AI models. In this section, we will implement and compare three matrix multiplication approaches. While they are mathematically identical, their differing implementations result in vastly different performance outcomes. We will implement:
 
-* Naive Kernel (src/c/kernels/naive.c)
+* **Naive Kernel** (src/c/kernels/naive.c)
   * A simple, baseline implementation of matrix multiplication to provide a reference point for performance.
-* FP32 Neon Kernel (src/c/kernels/fp32_neon.c)
+* **FP32 Neon Kernel** (src/c/kernels/fp32_neon.c)
   * A matrix multiplication optimized for single-precision floating-point operations using Arm Neon SIMD instructions to leverage vectorized computation.
-* INT8 Neon Kernel (src/c/kernels/int8_neon.c)
+* **INT8 Neon Kernel** (src/c/kernels/int8_neon.c)
   * An integer matrix multiplication tailored for 8-bit operations, utilizing Neon SIMD to maximize throughput for lower-precision workloads.
 
 By analyzing these implementations, you will gain insight into the performance trade-offs and benefits of hardware-specific optimizations that Arm can offer.
