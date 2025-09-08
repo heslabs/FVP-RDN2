@@ -26,6 +26,11 @@ cd model-scripts/rdinfra
 
 It takes about 10-min to run upto the Linux login prompt
 
+```
+rdn2 login: root
+Password: root
+```
+
 ---
 ### FVP console ouptut
 
