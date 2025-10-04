@@ -1,6 +1,12 @@
 # FVP-RDN2-Ubuntu
 
 ---
+### Project
+
+* Running NEON Matrix Multiplicaiton Benchmarking
+  * https://github.com/heslabs/FVP-RDN2-Ubuntu/blob/main/simd-neon.md
+
+---
 ### Learning Path
 
 * Get started with the Neoverse Reference Design software stack
