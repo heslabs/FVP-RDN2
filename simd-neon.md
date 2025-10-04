@@ -33,6 +33,7 @@ Let's now compute the latency of results of these three operators across differe
 root@rdn2:# cd ~/labs/AI-on-Arm
 root@rdn2:~/labs/AI-on-Arm# source ./zenv/bin/activate
 (zenv) root@rdn2:~/labs/AI-on-Arm# python3 ./bench_table.py
+
    mSize  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)
 0     32    0.000040         1.0    0.000003        13.0    0.000002        20.0
 1     64    0.000317         1.0    0.000019        17.0    0.000010        32.0
@@ -47,9 +48,8 @@ root@rdn2:~/labs/AI-on-Arm# source ./zenv/bin/activate
 ```
 demo@soclabs:$ cd ~/labs/AI-on-Arm
 demo@soclabs:~/labs/AI-on-Arm$ source ./aivenv/bin/activate
-(aivenv) demo@soclabs:~/labs/AI-on-Arm$ make run
+(aivenv) demo@soclabs:~/labs/AI-on-Arm$ python3.12 ./bench_table.py
 
-$ python3.12 ./bench_table.py
    mSize  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)
 0     32    0.000101         1.0    0.000005        20.0    0.000003        34.0
 1     64    0.000801         1.0    0.000040        20.0    0.000020        40.0
@@ -62,6 +62,7 @@ $ python3.12 ./bench_table.py
 
 ```
 (aivenv) demo@rx66h:~/AI-on-Arm$ python3 ./bench_table.py
+
    mSize  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)
 0     32    0.000189         1.0    0.000008        24.0    0.000005        38.0
 1     64    0.001487         1.0    0.000057        26.0    0.000034        44.0
