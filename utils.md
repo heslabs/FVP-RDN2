@@ -10,7 +10,7 @@
 ! Use a truetype font and size.
 xterm*faceName: Monospace
 xterm*faceSize: 14
-``
+```
 
 Then run the following:
 ```
