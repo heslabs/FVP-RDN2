@@ -35,6 +35,8 @@ Test the Eternet connection
 
 <img width="550" height="524" alt="image" src="https://github.com/user-attachments/assets/6788aba8-ec16-452b-ae29-cfdc8080e284" />
 
+<img width="650" height="331" alt="image" src="https://github.com/user-attachments/assets/be293ee3-5877-40c6-bf72-48cf0888338d" />
+
 
 ---
 ### FVP console ouptut
