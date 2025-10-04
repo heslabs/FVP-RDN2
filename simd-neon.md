@@ -27,9 +27,11 @@ Let's now compute the latency of results of these three operators across differe
 ## Results 
 
 ---
-#### RDN2 (Neoverse-N2)
+#### RDN2 (Neoverse-N2) FVP
 
 ```
+root@rdn2:# cd ~/labs/AI-on-Arm
+root@rdn2:~/labs/AI-on-Arm# source ./zenv/bin/activate
 (zenv) root@rdn2:~/labs/AI-on-Arm# python3 ./bench_table.py
    mSize  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)
 0     32    0.000040         1.0    0.000003        13.0    0.000002        20.0
