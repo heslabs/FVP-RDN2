@@ -41,6 +41,25 @@ root@rdn2:~/labs/AI-on-Arm# source ./zenv/bin/activate
 4    512    0.160490         1.0    0.009167        18.0    0.004624        35.0
 ```
 
+---
+#### RDN2 (Neoverse-N2) Edge server
+
+```
+demo@soclabs:$ cd ~/labs/AI-on-Arm
+demo@soclabs:~/labs/AI-on-Arm$ source ./aivenv/bin/activate
+(aivenv) demo@soclabs:~/labs/AI-on-Arm$ make run
+
+$ python3.12 ./bench_table.py
+   mSize  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)  Latency(s)
+0     32    0.000101         1.0    0.000005        20.0    0.000003        34.0
+1     64    0.000801         1.0    0.000040        20.0    0.000020        40.0
+2    128    0.006261         1.0    0.000354        18.0    0.000149        42.0
+3    256    0.059923         1.0    0.007705         8.0    0.001362        44.0
+4    512    0.484757         1.0    0.064744         7.0    0.029725        16.0
+
+(aivenv) demo@soclabs:~/labs/AI-on-Arm$ 
+```
+
 #### RPI5 (Cortex-A76)
 
 ```
