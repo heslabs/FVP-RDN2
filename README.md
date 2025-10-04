@@ -1,4 +1,4 @@
-# FVP-RDN2
+# FVP-RDN2-Ubuntu
 
 ---
 ## Matrix Multiplication Optimization
