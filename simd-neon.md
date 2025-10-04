@@ -34,7 +34,7 @@ root@rdn2:# cd ~/labs/AI-on-Arm
 root@rdn2:~/labs/AI-on-Arm# source ./zenv/bin/activate
 (zenv) root@rdn2:~/labs/AI-on-Arm# python3 ./bench_table.py
 
-   mSize    Naive (s)               FP32 (s)        Acc     INT8 (s)        Acc
+   mSize    FP32 Naive (s)          FP32 NEON (s)   Acc     INT8 NEON (s)   Acc
 0     32    0.000040         1.0    0.000003        13.0    0.000002        20.0
 1     64    0.000317         1.0    0.000019        17.0    0.000010        32.0
 2    128    0.002520         1.0    0.000149        17.0    0.000077        33.0
@@ -50,7 +50,7 @@ demo@soclabs:$ cd ~/labs/AI-on-Arm
 demo@soclabs:~/labs/AI-on-Arm$ source ./aivenv/bin/activate
 (aivenv) demo@soclabs:~/labs/AI-on-Arm$ python3.12 ./bench_table.py
 
-   mSize    Naive (s)               FP32 (s)        Acc     INT8 (s)        Acc
+   mSize    FP32 Naive (s)          FP32 NEON (s)   Acc     INT8 NEON (s)   Acc
 0     32    0.000101         1.0    0.000005        20.0    0.000003        34.0
 1     64    0.000801         1.0    0.000040        20.0    0.000020        40.0
 2    128    0.006261         1.0    0.000354        18.0    0.000149        42.0
@@ -63,7 +63,7 @@ demo@soclabs:~/labs/AI-on-Arm$ source ./aivenv/bin/activate
 ```
 (aivenv) demo@rx66h:~/AI-on-Arm$ python3 ./bench_table.py
 
-   mSize    Naive (s)               FP32 (s)        Acc     INT8 (s)        Acc
+   mSize    FP32 Naive (s)          FP32 NEON (s)   Acc     INT8 NEON (s)   Acc
 0     32    0.000189         1.0    0.000008        24.0    0.000005        38.0
 1     64    0.001487         1.0    0.000057        26.0    0.000034        44.0
 2    128    0.008819         1.0    0.000464        19.0    0.000247        36.0
