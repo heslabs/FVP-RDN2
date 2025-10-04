@@ -3,6 +3,8 @@
 ---
 ### Project
 
+* Setup Neoverse RD-N2 FVP
+  * https://github.com/heslabs/FVP-RDN2-Ubuntu/blob/main/fvp-setup.md
 * Running NEON Matrix Multiplicaiton Benchmarking
   * https://github.com/heslabs/FVP-RDN2-Ubuntu/blob/main/simd-neon.md
 
