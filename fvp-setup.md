@@ -154,7 +154,7 @@ Please follow this to setup TAP interface
 <img width="800" height="1588" alt="image" src="https://github.com/user-attachments/assets/3c3ece18-dd3c-4cea-a0f9-920d3cf37987" />
 
 ---
-<img width="800" height="932" alt="image" src="https://github.com/user-attachments/assets/4b6de5fa-5000-4662-bf19-f7cd2e480fb3" />
+<img width="1000" height="932" alt="image" src="https://github.com/user-attachments/assets/4b6de5fa-5000-4662-bf19-f7cd2e480fb3" />
 
 
 
