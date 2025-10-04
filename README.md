@@ -1,4 +1,4 @@
-# FVP-RDN2-SVE
+# FVP-RDN2
 
 ---
 ## Matrix Multiplication Optimization
