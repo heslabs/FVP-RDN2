@@ -1,4 +1,4 @@
-# Remote access to run FVP-RDN2
+# Remote access to Linux PC for running FVP
 
 
 ### Quick Start Guide
